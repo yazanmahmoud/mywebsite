@@ -1,0 +1,443 @@
+@charset "utf-8";
+/*
+Fultz House Museum
+Author: Ty Walkland, Revised by Elmer Grove
+/*GLOBAL*/
+
+* { margin:0; padding:0; }
+
+body {
+	background: #081b00 url(images/bgBody.png) bottom repeat-x;
+	width: 100%;
+	font: 80%/150% Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+img { border:none; }
+
+#container {
+	margin: 0 auto;
+	width: 1014px;
+	position: relative;
+	padding-bottom:115px;
+}
+
+.overlay {
+	background:url(images/gazebo.png);
+	position:absolute;
+	width: 939px;
+	height: 613px;
+	left: -72px;
+	bottom:2px;
+}
+
+.clear { clear:both; content:"."; }
+
+/*TYPE*/
+
+h1 {
+	font:normal 195%/120% Georgia, Times, serif;
+	color: #360023;
+	letter-spacing: -1px;
+	margin-left: -1em;
+	background:url(images/bgH1.png) no-repeat;
+	height: 55px;
+	padding-top: 0.3em;
+	padding-left: 1em;
+}
+
+h2 {
+	font:bold 120%/120% Georgia, Times, serif;
+	color: #360023;
+	text-transform: uppercase;
+	margin-bottom: 0.3em;
+	margin-top: 2em;
+	
+}
+
+p {
+	font:normal 120%/140% Georgia, Times, serif;
+	color: #343434;
+	margin-bottom: 1em;
+}
+
+p.intro {
+	font:normal 120%/140% Georgia, Times, serif;
+	color: #222;
+	margin-bottom: 2em;
+}
+
+p.small {
+	font:normal 90%/140% Georgia, Times, serif;
+	color: #555;
+}
+
+p.left {
+	font:italic 90%/140% Georgia, Times, serif;
+	color: #555;
+	width: 207px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	float: left;
+	display: block;
+}
+
+p.right {
+	font:italic 90%/140% Georgia, Times, serif;
+	color: #555;
+	width: 207px;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	float: right;
+	display: block;
+}
+
+.desc {
+	font:italic 90%/140% Georgia, Times, serif;
+	color: #1b1d00;
+	display: block;
+	font-weight: normal;
+}
+
+a {
+	color:#360023;
+	border-bottom: 1px solid #9f9968;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #360023;
+}
+
+#open {
+	background: url(images/open.png) right no-repeat;
+	font:normal bold 120%/120% Georgia, Times, serif;
+	color: #360023;
+	display: block;
+	width: 180px;
+	height: 47px;
+	padding-top: 6px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+	font-variant: small-caps;
+	text-align: right;
+	padding-right: 80px;
+}
+
+.hours {
+	font:normal 90% Georgia, Times, Serif;
+	display: block;
+	color: #1b1d00;
+	font-variant: normal;
+}
+
+address.header {
+	font:italic 120%/120% Georgia, Times, serif;
+	color: #1b1d00;
+	display: block;
+	position: absolute;
+	left: 185px;
+	top: 30px;
+	width: 250px;
+}
+
+/*HEADER*/
+
+#navTop {
+	list-style: none;
+	float: right;
+	width: 320px;
+	height: 19px;
+	margin-top: 35px;
+	margin-right: 30px;
+}
+
+#navTop a {
+	font:normal 90%/19px Arial, Helvetica, sans-serif;
+	color: #4d4a31;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-right: 1em;
+	text-align: center;
+	border: none;
+	background: url(images/divHorz.png) bottom center no-repeat;
+}
+
+#navTop a:hover {
+	background-position:left bottom;
+}
+
+#header {
+	width: 1012px;
+	height: 160px;
+	background: url(images/bgHeader.png) no-repeat;
+}
+
+#logo {
+	position:absolute;
+	left: 18px;
+	float: left;
+}
+
+/*CONTENT*/
+
+#content {
+	width: 1012px;
+	background: url(images/bgContent.png) repeat-y;
+}
+
+#left {
+	background: url(images/divVert.png) right repeat-y;
+	width: 262px;
+	float: left;
+	padding-left: 40px;
+	padding-right: 20px;
+	margin-bottom: 3em;
+	padding-top: 2em;
+	position:relative;
+	z-index:100;
+}
+
+#right {
+	width: 590px;
+	float: right;
+	margin-bottom: 3em;
+	padding-left: 40px;
+	padding-right: 60px;
+	position:relative;
+	z-index:100;
+}
+
+/*NAV*/
+
+#nav {
+	list-style: none;
+	width: 201px;
+	position: relative;
+	left: 50px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+#nav a {
+  display: block;
+  text-indent: -900%;
+  outline: none;
+  border:none;
+}
+
+#nav a:hover, #nav a.current  {
+  background-position: left bottom;
+}
+
+#nav .sackville {
+  height: 83px;
+  background: url(images/navSackville.png) no-repeat;
+}
+
+#nav .about {
+  height: 62px;
+  background: url(images/navAbout.png) no-repeat;
+}
+
+#nav .events {
+  height: 65px;
+  background: url(images/navEvents.png) no-repeat;
+}
+
+#nav .links {
+  height: 58px;
+  background: url(images/navLinks.png) no-repeat;
+}
+
+#nav .brochures {
+  height: 56px;
+  background: url(images/navBrochures.png) no-repeat;
+}
+
+/*FOOTER*/
+
+#footer {
+	width: 1012px;
+	background: url(images/bgFooter.png) top left no-repeat;
+	height: 60px;
+	padding-top: 1em;
+	z-index:-10;
+}
+
+#copyright {
+	float:right;
+	font:normal 85%/130% Arial, Helvetica, sans-serif;
+	color: #384b30;
+	width: auto;
+	margin-right: 3em;
+	text-align: right;
+	clear: both;
+}
+
+.credit {
+	font:normal 80%/130% Arial, Helvetica, sans-serif;
+	color: #384b30;
+	display:block;
+}
+
+#copyright a {
+	color: #384b30;
+	border-bottom:1px solid #081b00;
+}
+
+#copyright a:hover {
+	background:#081b00;
+	border-bottom:1px solid #081b00;
+}
+
+#navFooter {
+	list-style: none;
+	float: right;
+	width: 590px;
+	margin-right:5%;
+	background:url(images/divHorz.png) top center no-repeat;
+	padding-top:0.5em;
+	position:relative;
+	z-index:100;
+}
+
+#navFooter a {
+	font:normal 85% Arial, Helvetica, sans-serif;
+	color: #1b1d00;
+	text-decoration: none;
+	display: block;
+	float: left;
+	border: none;
+	background: url(images/divHorz.png) bottom center no-repeat;
+	padding-bottom: 0.2em;
+	margin-left: 1.2em;
+}
+
+#navFooter a:hover {
+	background-position: bottom left;
+}
+
+/*IMAGES*/
+
+.photo {
+	float: left;
+	padding-right: 1.5em;
+}
+
+.caption {
+	margin-bottom: 1em;
+}
+
+.drop {
+	float:left;
+	font: normal 400%/1 Georgia, Times, serif;
+	padding-right: 0.2em;
+	color: #384b30;
+}
+
+a#facebook {
+	background:url(images/facebook.png);
+	text-indent: -900%;
+	width:153px;
+	height:16px;
+	border:none;
+	float: right;
+	position: relative;
+	z-index: 100;
+	clear: both;
+	margin-right: 3em;
+	margin-bottom: 1em;
+}
+
+#map {
+	float:right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.icon {
+	border:none;
+	margin-right:6px;
+}
+
+/*LISTS*/
+
+ul {
+	list-style:none;
+}
+
+ol {
+	margin-left:2em;
+}
+
+ol li {
+	font:normal 120%/140% Georgia, Times, serif;
+	color: #555;
+	padding-left: 1em;
+	margin-bottom: 0.5em;
+}
+
+.jump {
+	margin-left:2em;
+	list-style: disc;
+	margin-bottom: 2em;
+}
+
+.jump a {
+	font:normal 100%/140% Georgia, Times, serif;
+	color: #555;
+	margin-bottom: 0.5em;
+}
+
+.jump a:hover {
+	color: #555;
+}
+
+/*TABLES*/
+
+table {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+table.contact {
+	width: 50%;
+	margin-bottom: 1em;
+	float: right;
+}
+		
+td {
+	font: normal 110%/140% Georgia, Times, serif;
+	color: #222;
+	padding: 5px;
+	background: url(images/divHorz.png) bottom no-repeat;
+}
+
+td.month, td.label {
+	font: normal 150%/120% Georgia, Times, serif;
+	color: #360023;
+	background: url(images/divHorz.png) bottom no-repeat;
+	font-variant: small-caps;
+	padding-top: 2em;
+}
+
+td.first {
+	padding-top: 0;
+}
+
+td.date, td.time, td.number {
+	font: normal 120%/140% Georgia, Times, serif;
+	color: #384b30;
+	width: 15%;
+	padding: 5px;
+}
+
+td.medium {
+	font: normal 110%/140% Georgia, Times, serif;
+	color: #384b30;
+	width: 15%;
+	padding: 5px;
+}
