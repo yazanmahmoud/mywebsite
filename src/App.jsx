@@ -10,6 +10,7 @@ import History from './pages/History';
 function App() {
   return (
     <Router>
+     <header>
       <nav style={{ padding: '1rem', display: 'flex', gap: '1rem' }}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -19,7 +20,10 @@ function App() {
         <Link to="/events">Events</Link>
         <Link to="/history">History</Link>
       </nav>
+      </header>
+      
 
+     <main> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -29,6 +33,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/history" element={<History />} />
       </Routes>
+     </main> 
     </Router>
   );
 }
