@@ -1,13 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css'; 
+import '../styles.css';
+import logo from '../images/logo.png';
+import photo01 from '../images/photo01.png';
+import photo02 from '../images/photo02.png';
+import photo03 from '../images/photo03.png';
+
 
 const History = () => {
   return (
     <div id="container">
       <div id="header">
         <a href="http://www.fultzhouse.ca/">
-          <img id="logo" src="../images/logo.png" alt="Fultz House Museum" />
+          <img id="logo" src={logo} alt="Fultz House Museum" />
         </a>
       </div>
 
@@ -30,7 +35,7 @@ const History = () => {
           <p className="right">
             <img
               className="caption"
-              src="../images/photo01.png"
+              src={photo01}
               alt="Felled trees line the riverbank"
             />
             Logging along the Sackville River brought many settlers to the Sackville area in the 1800s.
@@ -48,7 +53,7 @@ const History = () => {
           <p className="left">
             <img
               className="caption"
-              src="../images/photo02.png"
+              src={photo02}
               alt="Pictured are several local woodsmen preparing to move a log down the Sackville River"
             />
             Pictured are several local woodsmen preparing to move a log down the Sackville River, c.1920. From the
@@ -68,7 +73,7 @@ const History = () => {
           <p className="right">
             <img
               className="caption"
-              src="../images/photo03.png"
+              src={photo03}
               alt="A mother and her three small children going for a ride in a horse-drawn buggy"
             />
             A mother and her three small children going for a ride in a horse-drawn buggy. Many of Sackville's early
@@ -113,7 +118,7 @@ const History = () => {
           <li><Link to="/community">Community Links</Link></li>
           <li><Link to="/brochures">Brochures</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
-          <li><a href="http://www.fultzhouse.ca/">Home</a></li>
+          <li><Link to="/">Home</Link></li>
         </ul>
         <div className="clear" />
       </div>

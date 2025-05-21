@@ -1,5 +1,6 @@
 import React from 'react';
-import '../App.css';
+import { Link } from 'react-router-dom';
+import '../styles.css';
 
 // TableRow component
 const TableRow = ({ label, contact, isHeader = false, colSpan = 2 }) => {

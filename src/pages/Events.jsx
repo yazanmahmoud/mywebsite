@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css'; 
+import '../styles.css';
 
 const Events = () => {
   return (
@@ -14,11 +14,11 @@ const Events = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-           <li><a className="sackville" href="/History">Sackville: A Brief History</a></li>
-            <li><a className="about" href="/About">About the Museum</a></li>
-            <li><a className="events current" href="/Events">Upcoming Events</a></li>
-            <li><a className="links" href="/Community">Community Links</a></li>
-            <li><a className="brochures" href="/Brochures">Historical Brochures</a></li>
+           <li><a className="sackville" href="/history">Sackville: A Brief History</a></li>
+            <li><a className="about" href="/about">About the Museum</a></li>
+            <li><a className="events current" href="/events">Upcoming Events</a></li>
+            <li><a className="links" href="/community">Community Links</a></li>
+            <li><a className="brochures" href="/brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -108,12 +108,12 @@ const Events = () => {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><Link to="/History">Sackville History</Link></li>
-          <li><Link to="/About">About the Museum</Link></li>
-          <li><Link to="/Events">Upcoming Events</Link></li>
-          <li><Link to="/Community">Community Links</Link></li>
-          <li><Link to="/Brochures">Brochures</Link></li>
-          <li><Link to="/Contact">Contact Us</Link></li>
+          <li><Link to="/history">Sackville History</Link></li>
+          <li><Link to="/about">About the Museum</Link></li>
+          <li><Link to="/events">Upcoming Events</Link></li>
+          <li><Link to="/community">Community Links</Link></li>
+          <li><Link to="/brochures">Brochures</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>

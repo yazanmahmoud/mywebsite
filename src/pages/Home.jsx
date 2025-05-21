@@ -1,5 +1,6 @@
 import React from 'react';
-import '../App.css'; 
+import { Link } from 'react-router-dom';
+import '../styles.css';
 
 
 function Home() {
@@ -8,14 +9,14 @@ function Home() {
       {/* Header */}
       <div id="header">
         <a href="http://www.fultzhouse.ca/">
-          <img alt="Fultz House Museum" id="logo" src="images/logo.png" />
+          <img alt="Fultz House Museum" id="logo" src="../images/logo.png" />
         </a>
         <address className="header">
           33 Sackville Drive<br />
           Lower Sackville, NS B4C 0E5<br />
-          <img alt="Phone" className="icon" src="images/icon-phone.gif" width="12" height="9" /> 902-865-3794<br />
-          <img alt="Fax" className="icon" src="images/fax.jpg" width="12" height="12" /> 902-865-3794<br />
-          <img alt="Email" className="icon" src="images/icon-email.gif" width="11" height="8" />
+          <img alt="Phone" className="icon" src=",,/images/icon-phone.gif" width="12" height="9" /> 902-865-3794<br />
+          <img alt="Fax" className="icon" src="../images/fax.jpg" width="12" height="12" /> 902-865-3794<br />
+          <img alt="Email" className="icon" src="../images/icon-email.gif" width="11" height="8" />
           <a href="mailto:fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
         </address>
       </div>
