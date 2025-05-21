@@ -151,21 +151,7 @@ a:hover {
 	border-bottom: 1px solid #360023;
 }
 
-#open {
-	background: url(images/open.png) right no-repeat;
-	font:normal bold 120%/120% Georgia, Times, serif;
-	color: #360023;
-	display: block;
-	width: 180px;
-	height: 47px;
-	padding-top: 6px;
-	float: right;
-	margin-top: 15px;
-	margin-right: 30px;
-	font-variant: small-caps;
-	text-align: right;
-	padding-right: 80px;
-}
+
 
 .hours {
 	font:normal 90% Georgia, Times, Serif;
