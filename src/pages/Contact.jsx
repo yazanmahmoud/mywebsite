@@ -14,11 +14,11 @@ const Contact = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
-            <li><a className="about" href="../About">About the Museum</a></li>
-            <li><a className="events" href="../Events">Upcoming Events</a></li>
-            <li><a className="links" href="../Community">Community Links</a></li>
-            <li><a className="brochures" href="../Brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="/History">Sackville: A Brief History</a></li>
+            <li><a className="about" href="/About">About the Museum</a></li>
+            <li><a className="events" href="/Events">Upcoming Events</a></li>
+            <li><a className="links" href="/Community">Community Links</a></li>
+            <li><a className="brochures" href="/Brochures">Historical Brochures</a></li>
           </ul>
         </div>
 

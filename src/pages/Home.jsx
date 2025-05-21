@@ -76,12 +76,12 @@ function Home() {
       {/* Footer */}
       <div id="footer">
         <ul id="navFooter">
-          <li><a href="history/">Sackville History</a></li>
-          <li><a href="about/">About the Museum</a></li>
-          <li><a href="events/">Upcoming Events</a></li>
-          <li><a href="links/">Community Links</a></li>
-          <li><a href="brochures/">Brochures</a></li>
-          <li><a href="misc/contact.html">Contact Us</a></li>
+          <li><a href="/history">Sackville History</a></li>
+          <li><a href="/about">About the Museum</a></li>
+          <li><a href="/events">Upcoming Events</a></li>
+          <li><a href="/community">Community Links</a></li>
+          <li><a href="/brochures">Brochures</a></li>
+          <li><a href="/Contact">Contact Us</a></li>
           <li><a href="http://www.fultz-house.ca/">Home</a></li>
         </ul>
 

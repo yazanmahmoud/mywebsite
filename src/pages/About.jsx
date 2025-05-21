@@ -114,12 +114,12 @@ function About() {
       {/* Footer */}
       <div id="footer">
         <ul id="navFooter">
-          <li><a href="../History">Sackville History</a></li>
-          <li><a href="../About">About the Museum</a></li>
-          <li><a href="../Events">Upcoming Events</a></li>
-          <li><a href="../Community">Community Links</a></li>
-          <li><a href="../Brochures">Brochures</a></li>
-          <li><a href="../Contact.html">Contact Us</a></li>
+          <li><a href="/History">Sackville History</a></li>
+          <li><a href="/About">About the Museum</a></li>
+          <li><a href="/Events">Upcoming Events</a></li>
+          <li><a href="/Community">Community Links</a></li>
+          <li><a href="/Brochures">Brochures</a></li>
+          <li><a href="/Contact.html">Contact Us</a></li>
           <li><a href="http://www.fultz-house.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>
