@@ -25,11 +25,11 @@ function Home() {
         {/* Sidebar */}
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
-            <li><a className="about" href="../About">About the Museum</a></li>
-            <li><a className="events" href="../Events">Upcoming Events</a></li>
-            <li><a className="links" href="../Community">Community Links</a></li>
-            <li><a className="brochures" href="../Brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="../history">Sackville: A Brief History</a></li>
+            <li><a className="about" href="../about">About the Museum</a></li>
+            <li><a className="events" href="../events">Upcoming Events</a></li>
+            <li><a className="links" href="../community">Community Links</a></li>
+            <li><a className="brochures" href="../brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -81,7 +81,7 @@ function Home() {
           <li><a href="/events">Upcoming Events</a></li>
           <li><a href="/community">Community Links</a></li>
           <li><a href="/brochures">Brochures</a></li>
-          <li><a href="/Contact">Contact Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li><a href="http://www.fultz-house.ca/">Home</a></li>
         </ul>
 

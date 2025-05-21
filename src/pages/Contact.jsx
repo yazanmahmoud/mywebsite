@@ -14,11 +14,11 @@ const Contact = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="/History">Sackville: A Brief History</a></li>
-            <li><a className="about" href="/About">About the Museum</a></li>
-            <li><a className="events" href="/Events">Upcoming Events</a></li>
-            <li><a className="links" href="/Community">Community Links</a></li>
-            <li><a className="brochures" href="/Brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="/history">Sackville: A Brief History</a></li>
+            <li><a className="about" href="/about">About the Museum</a></li>
+            <li><a className="events" href="/events">Upcoming Events</a></li>
+            <li><a className="links" href="/community">Community Links</a></li>
+            <li><a className="brochures" href="/brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -57,11 +57,11 @@ const Contact = () => {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><Link to="/History">Sackville History</Link></li>
-          <li><Link to="/About">About the Museum</Link></li>
-          <li><Link to="/Events">Upcoming Events</Link></li>
-          <li><Link to="/Community">Community Links</Link></li>
-          <li><Link to="/Brochures"></Link></li>
+          <li><Link to="/history">Sackville History</Link></li>
+          <li><Link to="/about">About the Museum</Link></li>
+          <li><Link to="/events">Upcoming Events</Link></li>
+          <li><Link to="/community">Community Links</Link></li>
+          <li><Link to="/brochures"></Link></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>

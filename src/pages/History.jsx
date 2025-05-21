@@ -15,11 +15,11 @@ const History = () => {
         {/* Sidebar Navigation */}
         <div id="left">
           <ul id="nav">
-            <li><Link to="/History" className="sackville current">Sackville: A Brief History</Link></li>
-            <li><Link to="/About" className="about">About the Museum</Link></li>
-            <li><Link to="/Events" className="events">Upcoming Events</Link></li>
-            <li><Link to="/Community" className="links">Community Links</Link></li>
-            <li><Link to="/Brochures" className="brochures">Historical Brochures</Link></li>
+            <li><Link to="/history" className="sackville current">Sackville: A Brief History</Link></li>
+            <li><Link to="/about" className="about">About the Museum</Link></li>
+            <li><Link to="/events" className="events">Upcoming Events</Link></li>
+            <li><Link to="/community" className="links">Community Links</Link></li>
+            <li><Link to="/brochures" className="brochures">Historical Brochures</Link></li>
           </ul>
         </div>
 
@@ -107,12 +107,12 @@ const History = () => {
       {/* Footer */}
       <div id="footer">
         <ul id="navFooter">
-          <li><Link to="/History">Sackville History</Link></li>
-          <li><Link to="/About">About the Museum</Link></li>
-          <li><Link to="/Events">Upcoming Events</Link></li>
-          <li><Link to="/Community">Community Links</Link></li>
-          <li><Link to="/Brochures">Brochures</Link></li>
-          <li><Link to="/Contact">Contact Us</Link></li>
+          <li><Link to="/history">Sackville History</Link></li>
+          <li><Link to="/about">About the Museum</Link></li>
+          <li><Link to="/events">Upcoming Events</Link></li>
+          <li><Link to="/community">Community Links</Link></li>
+          <li><Link to="/brochures">Brochures</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear" />
