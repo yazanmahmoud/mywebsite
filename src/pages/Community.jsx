@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css';
+import '../App.css';
 
 // TableRow component
 const TableRow = ({ label, contact, isHeader = false, colSpan = 2 }) => {
@@ -133,11 +133,11 @@ const Community = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="../history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="../about">About the Museum</a></li>
-            <li><a className="events" href="../events">Upcoming Events</a></li>
-            <li><a className="links current" href="../links">Community Links</a></li>
-            <li><a className="brochures" href="../brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
+            <li><a className="about" href="../About">About the Museum</a></li>
+            <li><a className="events" href="../Events">Upcoming Events</a></li>
+            <li><a className="links current" href="../Community">Community Links</a></li>
+            <li><a className="brochures" href="../Brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -153,19 +153,19 @@ const Community = () => {
             <li><a href="http://www.hotelscombined.ca/Place/Lower_Sackville.htm">To find Lower Sackville hotels nearby, visit HotelsCombined</a></li>
           </ul>
 
-          {/* Here's the table rendered properly */}
+          {/* table */}
           <ContactTable />
         </div>
       </div>
 
       <div id="footer">
         <ul id="navFooter">
-          <li><a href="/">Sackville History</a></li>
-          <li><a href="../about">About the Museum</a></li>
-          <li><a href="../events">Upcoming Events</a></li>
-          <li><a href="../links">Community Links</a></li>
-          <li><a href="../brochures">Brochures</a></li>
-          <li><a href="../misc/contact.html">Contact Us</a></li>
+          <li><a href="../History">Sackville History</a></li>
+          <li><a href="../About">About the Museum</a></li>
+          <li><a href="../Events">Upcoming Events</a></li>
+          <li><a href="../Community">Community Links</a></li>
+          <li><a href="../Brochures">Brochures</a></li>
+          <li><a href="../Contact.html">Contact Us</a></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>

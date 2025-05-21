@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css'; // Adjust path if necessary
+import '../App.css'; 
 
 
 function Home() {
@@ -25,11 +25,11 @@ function Home() {
         {/* Sidebar */}
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="../history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="../about">About the Museum</a></li>
-            <li><a className="events" href="../events">Upcoming Events</a></li>
-            <li><a className="links" href="../links">Community Links</a></li>
-            <li><a className="brochures" href="../brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
+            <li><a className="about" href="../About">About the Museum</a></li>
+            <li><a className="events" href="../Events">Upcoming Events</a></li>
+            <li><a className="links" href="../Community">Community Links</a></li>
+            <li><a className="brochures" href="../Brochures">Historical Brochures</a></li>
           </ul>
         </div>
 

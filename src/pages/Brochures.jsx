@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css';
+import '../App.css';
 
 const brochures = [
   { file: 'AfternoonTea.pdf', title: 'A History of Afternoon Tea' },
@@ -74,11 +74,11 @@ function Brochures() {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><a className="sackville" href="../history">Sackville: A Brief History</a></li>
-            <li><a className="about" href="../about">About the Museum</a></li>
-            <li><a className="events" href="../events">Upcoming Events</a></li>
-            <li><a className="links" href="../links">Community Links</a></li>
-            <li><a className="brochures current" href="../brochures">Historical Brochures</a></li>
+            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
+            <li><a className="about" href="../About">About the Museum</a></li>
+            <li><a className="events" href="../Events">Upcoming Events</a></li>
+            <li><a className="links" href="../Community">Community Links</a></li>
+            <li><a className="brochures current" href="../Brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -104,12 +104,12 @@ function Brochures() {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><a href="/">Sackville History</a></li>
+          <li><a href="../History">Sackville History</a></li>
           <li><a href="../about">About the Museum</a></li>
           <li><a href="../events">Upcoming Events</a></li>
-          <li><a href="../links">Community Links</a></li>
-          <li><a href="../brochures">Brochures</a></li>
-          <li><a href="../misc/contact.html">Contact Us</a></li>
+          <li><a href="../Community">Community Links</a></li>
+          <li><a href="../Brochures">Brochures</a></li>
+          <li><a href="../Contact.html">Contact Us</a></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>

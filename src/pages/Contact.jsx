@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles.css'; // Make sure this path is correct
+import '../App.css'; 
 
 const Contact = () => {
   return (
@@ -14,10 +14,11 @@ const Contact = () => {
       <div id="content">
         <div id="left">
           <ul id="nav">
-            <li><Link to="/history" className="sackville">Sackville: A Brief History</Link></li>
-            <li><Link to="/about" className="about">About the Museum</Link></li>
-            <li><Link to="/events" className="events">Upcoming Events</Link></li>
-            <li><Link to="/links" className="links">Community Links</Link></li>
+            <li><a className="sackville" href="../History">Sackville: A Brief History</a></li>
+            <li><a className="about" href="../About">About the Museum</a></li>
+            <li><a className="events" href="../Events">Upcoming Events</a></li>
+            <li><a className="links" href="../Community">Community Links</a></li>
+            <li><a className="brochures" href="../Brochures">Historical Brochures</a></li>
           </ul>
         </div>
 
@@ -56,11 +57,11 @@ const Contact = () => {
 
       <div id="footer">
         <ul id="navFooter">
-          <li><Link to="/history">Sackville History</Link></li>
-          <li><Link to="/about">About the Museum</Link></li>
-          <li><Link to="/events">Upcoming Events</Link></li>
-          <li><Link to="/links">Community Links</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
+          <li><Link to="/History">Sackville History</Link></li>
+          <li><Link to="/About">About the Museum</Link></li>
+          <li><Link to="/Events">Upcoming Events</Link></li>
+          <li><Link to="/Community">Community Links</Link></li>
+          <li><Link to="/Brochures"></Link></li>
           <li><a href="http://www.fultzhouse.ca/">Home</a></li>
         </ul>
         <div className="clear"></div>
